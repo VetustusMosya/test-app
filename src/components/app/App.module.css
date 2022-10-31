@@ -1,0 +1,36 @@
+h1 {
+  font-size: 4em;
+}
+h2 {
+  font-size: 3em;
+}
+h3 {
+  font-size: 3.3em;
+  color: #506e43;
+  font-weight: 700;
+}
+input {
+  width: 30%;
+  font-size: 1.5em;
+  padding: 0.25em 1em;
+  border: 2px solid palevioletred;
+  border-radius: 3px;
+}
+input[type="button"] {
+  width: 150px;
+  background-color: white;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  padding: 1rem 0;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
